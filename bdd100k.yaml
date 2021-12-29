@@ -1,0 +1,21 @@
+# BDD100K dataset 
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# download command/URL (optional)
+#download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: data/bdd100k/images/train/ 
+val: data/bdd100k/images/val/  
+test: ../bdd100k/images/test/
+
+# number of classes
+nc: 8
+
+# class names
+names: [ 'car', 'truck', 'person', 'traffic_sign', 'traffic_light', 'bus', 'rider', 'bike']
