@@ -13,14 +13,21 @@ Installation:
 
 
 
+
+
 Dataset
+
 To use YOLO v5 with your data, you need the following:
 - The dataset should be in YOLO format
 -   if your the objects from your dataset are marked in a different format, you have to transform it automatically using a script as: https://github.com/Delphi89/JSON2YOLOv5
 -   In this project, I have added the dataset in the following structure: data/bdd100k/images and data/bdd100k/labels, in each of them the folders are train, test and val
 
 
+
+
 Run
+
+
 You can run from Eclipse or you can use the following commands (you have to select the right options for your custom dataset) from the project main folder:
 python train.py --img 800 --batch-size 48 --epochs 100 --data bdd100k.yaml --cfg '' --weights 'yolov5s.pt'
 python3 detect.py --weights weights/best5.pt
