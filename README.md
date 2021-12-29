@@ -29,6 +29,9 @@ Run
 
 
 You can run from Eclipse or you can use the following commands (you have to select the right options for your custom dataset) from the project main folder:
+
 python train.py --img 800 --batch-size 48 --epochs 100 --data bdd100k.yaml --cfg '' --weights 'yolov5s.pt'
+
 python3 detect.py --weights weights/best5.pt
+
 python detect.py --source 'https://www.youtube.com/watch?v=AYNT2hqs87I'
