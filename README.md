@@ -22,6 +22,7 @@ To use YOLO v5 with your data, you need the following:
 -   if your the objects from your dataset are marked in a different format, you have to transform it automatically using a script as: https://github.com/Delphi89/JSON2YOLOv5
 -   In this project, I have added the dataset in the following structure: data/bdd100k/images and data/bdd100k/labels, in each of them the folders are train, test and val
 
+You can find BDDK dataset here: https://www.bdd100k.com/
 
 
 
