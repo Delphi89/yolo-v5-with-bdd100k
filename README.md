@@ -36,3 +36,9 @@ python train.py --img 800 --batch-size 48 --epochs 100 --data bdd100k.yaml --cfg
 python3 detect.py --weights weights/best5.pt
 
 python detect.py --source 'https://www.youtube.com/watch?v=AYNT2hqs87I'
+
+
+
+A complete article here: https://www.scientificbulletin.upb.ro/rev_docs_arhiva/full9c3_589119.pdf
+
+Citation: P. Diaconescu, V. Neagoe, „A Deep Learning Approach to Autonomous Driving in Urban Environment”, accepted by Scientific Bulletin of the Politehnica University of Bucharest, Series C, Electrical Engineering and Computer Science, to be indexed in Web of Science
